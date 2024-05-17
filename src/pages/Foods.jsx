@@ -10,14 +10,7 @@ function Foods() {
 
   const foods = useSelector((state) => state.foods);
 
-  const handleAddFood = () => {
-    const food = {
-      name: "test food",
-      calories: 0,
-      protein: 0,
-      carbohydrates: 0,
-      fat: 0,
-    };
+  const handleAddFood = (food) => {
     dispatch(addFood(food));
   };
 
