@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sintony&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Courgette&family=Montserrat:wght@300&family=Nunito+Sans:ital@1&family=Raleway:wght@600&family=Roboto&display=swap");
+
+:root {
+  --sintony: "Sintony";
+  --poppins: "Poppins";
+  --mont: "Montserrat";
+  --barlow: "Barlow Condensed";
+  --poppins: "Poppins";
+  --raleway: "Raleway";
+  --roboto: "Roboto";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
