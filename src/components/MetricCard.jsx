@@ -10,7 +10,7 @@ function MetricCard({ label, value, bannerImg }) {
         className="bg-[length:22vh_30vh] bg-center bg-end bg-no-repeat h-full w-full"
       ></div>
       <div className="flex flex-col gap-3 w-full bg-slate-100 px-4 py-4 backdrop-blur-xl rounded-b-xl">
-        <h1 className="text-red-500 text-[2rem]">{value}</h1>
+        <h1 className="text-red-500 text-[2rem]">{value > 0 ? value : 0}</h1>
         <p className="text-slate-600">{label}</p>
       </div>
     </div>
